@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    
 }
 header {
     background-color: #1F2937;
@@ -96,4 +97,64 @@ button {
     font-weight: 800;
     color: #1F2937;
 
+}
+
+.infoimg{
+    border-radius: 3px;
+    border: 3px solid #1F2937;
+}
+
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote .title{
+    font-style:italic;
+    font-size: 36px;
+    padding-top: 60px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.author{
+    padding-left: 55%;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.callSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.call {
+    width: 55%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 60px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 8px;
+    
+}
+
+.btncall{
+    border: 2px solid #F9FAF8;
+    border-radius: 4px;
+    margin: 80px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
 }
